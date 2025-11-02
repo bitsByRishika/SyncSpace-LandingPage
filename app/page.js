@@ -323,7 +323,7 @@ export default function Home() {
           scrub: true, pin: true, pinSpacing: false,
         }
       });
-      heroTimeline.to(heroSectionRef.current, { scale: 0.8, opacity: 0, ease: "power1.in" }, 0);
+      // heroTimeline.to(heroSectionRef.current, { scale: 0.8, opacity: 0, ease: "power1.in" }, 0);
       heroTimeline.fromTo(shadowRef.current, { yPercent: 100, opacity: 0 }, { yPercent: 0, opacity: 1, ease: "power1.out" }, 0);
       heroTimeline.to(navRef.current, { scale: 0.8, ease: "power1.out" }, 0);
       heroTimeline.to(heroContentRef.current, { scale: 0, yPercent: -50, ease: "power1.in" }, 0);
