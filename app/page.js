@@ -577,25 +577,25 @@ export default function Home() {
         <div ref={scrollTrackRef} className={styles.scrollTrack}>
 
           <div className={`${styles.scrollCard} ${styles.cardStagger1}`}>
-            <NextImage src="/coding.png" alt="Collaborative Coding" width={500} height={300} className={styles.cardImage} />
+            <NextImage src="./coding.png" alt="Collaborative Coding" width={500} height={300} className={styles.cardImage} />
             <h3>Collaborative Coding</h3>
             <p>Real-time shared editor.</p>
           </div>
 
           <div className={`${styles.scrollCard} ${styles.cardStagger2}`}>
-            <NextImage src="/meeting.png" alt="Integrated Meetings" width={500} height={300} className={styles.cardImage} />
+            <NextImage src="./meeting.png" alt="Integrated Meetings" width={500} height={300} className={styles.cardImage} />
             <h3>Integrated Meetings</h3>
             <p>Video chat without leaving your file.</p>
           </div>
 
           <div className={`${styles.scrollCard} ${styles.cardStagger3}`}>
-            <NextImage src="/tasks.png" alt="Project Management" width={500} height={300} className={styles.cardImage} />
+            <NextImage src="./tasks.png" alt="Project Management" width={500} height={300} className={styles.cardImage} />
             <h3>Project Management</h3>
             <p>Kanban boards and tasks.</p>
           </div>
 
           <div className={`${styles.scrollCard} ${styles.cardStagger4}`}>
-            <NextImage src="/chat.png" alt="Team Chat" width={500} height={300} className={styles.cardImage} />
+            <NextImage src="./chat.png" alt="Team Chat" width={500} height={300} className={styles.cardImage} />
             <h3>Team Chat</h3>
             <p>Persistent channels and DMs.</p>
           </div>
@@ -611,7 +611,7 @@ export default function Home() {
         {/* Images (Positioned) */}
         <div ref={robotSideRef} className={styles.robotImageContainer}>
           <NextImage
-            src="/robotSide.png"
+            src="./robotSide.png"
             alt="Robot"
             width={500}
             height={700}
@@ -620,7 +620,7 @@ export default function Home() {
         </div>
         <div ref={humanSideRef} className={styles.humanImageContainer}>
           <NextImage
-            src="/humanSide.png"
+            src="./humanSide.png"
             alt="Human"
             width={500}
             height={700}
@@ -682,7 +682,7 @@ export default function Home() {
         {/* Robot Image */}
         <div className={styles.footerRobotImage}>
           <NextImage
-            src="/robot.png" // Assumes you have 'robot.png' in your /public folder
+            src="./robot.png" // Assumes you have 'robot.png' in your /public folder
             alt="SyncSpace Robot"
             width={800}
             height={800}

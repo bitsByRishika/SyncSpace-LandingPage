@@ -20,11 +20,11 @@ body {
     color: inherit; /* CHANGED: Inherits from body */
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .heroSection h1{
     z-index: -9999999999;
-    overflow: hidden;
 }
 /* Navbar */
 .navbar {
